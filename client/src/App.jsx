@@ -13,7 +13,7 @@ function App() {
     <ThemeProvider theme={theme}>
     <EthProvider>
       <div style={{
-        backgroundImage: 'url(/Supplychain/img/supplychain.png)',
+        backgroundImage: 'url(' + process.env.PUBLIC_URL + '/img/supplychain.png)',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         minHeight: '100vh',
