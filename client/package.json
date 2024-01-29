@@ -2,7 +2,7 @@
   "name": "truffle-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/maxchain89/Supplychain.git",
+  "homepage": "https://maxchain89.github.io/Supplychain",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
