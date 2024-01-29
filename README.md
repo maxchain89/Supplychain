@@ -1,3 +1,5 @@
+markdown
+Copy code
 # Supply Chain on Blockchain
 
 Hello! This is my first React.js/Solidity smart contract project. The idea behind this app is to showcase how blockchains can be used to store data for supply chains and how much more secure this can be. You've got your basic CRUD operations where you can add, update, and delete items, along with a few other details you can change.
@@ -20,28 +22,24 @@ View the smart contract on Etherscan: [Supplychain Smart Contract](https://sepol
 
 ## Setup and Installation
 
-To set up this project for development and testing:
+To set up this project for development and testing, follow these steps:
 
 1. **Clone the Repository**
-
    ```bash
    git clone https://github.com/maxchain89/Supplychain.git
    cd Supplychain/client
+Install Dependencies
 
-2. **Install Dependencies**
-
-   ```bash
-   npm install
-
-
-3. **Set Up Environment Variables**
-
+bash
+Copy code
+npm install
+Set Up Environment Variables
 Create a .env file in the client directory with the necessary variables:
 
-   ```plaintext
-   REACT_APP_INFURA_KEY=<YourInfuraKey>
-   REACT_APP_CONTRACT_ADDRESS=<DeployedContractAddress>
-
+plaintext
+Copy code
+REACT_APP_INFURA_KEY=<YourInfuraKey>
+REACT_APP_CONTRACT_ADDRESS=<DeployedContractAddress>
 Note: Replace <YourInfuraKey> with your Infura project key and <DeployedContractAddress> with the address of the deployed smart contract.
 
 Run the Application Locally
