@@ -2,8 +2,11 @@
   "name": "truffle-client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/maxchain89/Supplychain.git",
   "scripts": {
     "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve"
   },
   "dependencies": {
@@ -11,6 +14,7 @@
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.4",
     "@mui/material": "^5.15.4",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
