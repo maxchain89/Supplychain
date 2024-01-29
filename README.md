@@ -1,5 +1,4 @@
-markdown
-Copy code
+
 # Supply Chain on Blockchain
 
 Hello! This is my first React.js/Solidity smart contract project. The idea behind this app is to showcase how blockchains can be used to store data for supply chains and how much more secure this can be. You've got your basic CRUD operations where you can add, update, and delete items, along with a few other details you can change.
