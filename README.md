@@ -1,8 +1,29 @@
-Hello! This is my first react.js / solidity smart contract! Please feel free to play around with it. You've got your basic CRUD, you can add update and delte items. As well as a few other details you can change. The idea behind this app is to show case how we can use block chains to store our data for our supply chains and how much more secure this can be.
-BE SURE AND ONLY USE TEST ETH FOR THIS APP!!! You'll need to connect you meta mask with an account with test eth first and then when you make any changes it takes just a few seconds for the udpate to show. Please let me know what you think! 
+# Supply Chain on Blockchain
 
-https://maxchain89.github.io/Supplychain/
+Hello! This is my first React.js/Solidity smart contract project. The idea behind this app is to showcase how blockchains can be used to store data for supply chains and how much more secure this can be. You've got your basic CRUD operations where you can add, update, and delete items, along with a few other details you can change.
 
-Oh and if you're interested here is the verified contract on Etherscan
+Feel free to play around with it, but **BE SURE TO ONLY USE TEST ETH FOR THIS APP**!
 
-https://sepolia.etherscan.io/address/0x97972Bd24e7cEee0e35dE6E42c8aa86f70a1D767
+## Features
+
+- **Create**: Add new items to the supply chain.
+- **Read**: View details of existing items.
+- **Update**: Change details of the items.
+- **Delete**: Remove items from the supply chain.
+- **Secure**: All data is stored on the blockchain, ensuring integrity and security.
+
+## Live Demo
+
+Check out the live app: [Supplychain on GitHub Pages](https://maxchain89.github.io/Supplychain/)
+
+View the smart contract on Etherscan: [Supplychain Smart Contract](https://sepolia.etherscan.io/address/0x97972Bd24e7cEee0e35dE6E42c8aa86f70a1D767)
+
+## Setup and Installation
+
+To set up this project for development and testing:
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/maxchain89/Supplychain.git
+   cd Supplychain/client
