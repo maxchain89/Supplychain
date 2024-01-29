@@ -35,11 +35,12 @@ To set up this project for development and testing:
 
 
 3. **Set Up Environment Variables**
+
 Create a .env file in the client directory with the necessary variables:
 
-```plaintext
-REACT_APP_INFURA_KEY=<YourInfuraKey>
-REACT_APP_CONTRACT_ADDRESS=<DeployedContractAddress>
+   ```plaintext
+   REACT_APP_INFURA_KEY=<YourInfuraKey>
+   REACT_APP_CONTRACT_ADDRESS=<DeployedContractAddress>
 
 Note: Replace <YourInfuraKey> with your Infura project key and <DeployedContractAddress> with the address of the deployed smart contract.
 
