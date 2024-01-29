@@ -28,12 +28,13 @@ To set up this project for development and testing:
    git clone https://github.com/maxchain89/Supplychain.git
    cd Supplychain/client
 
-Install Dependencies
+2. **Install Dependencies**
 
-bash
-Copy code
+```bash
 npm install
-Set Up Environment Variables
+
+3. **Set Up Environment Variables**
+
 
 Create a .env file in the client directory with the necessary variables:
 
