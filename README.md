@@ -30,8 +30,8 @@ To set up this project for development and testing:
 
 2. **Install Dependencies**
 
-```bash
-npm install
+   ```bash
+   npm install
 
 
 3. **Set Up Environment Variables**
