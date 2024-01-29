@@ -27,3 +27,35 @@ To set up this project for development and testing:
    ```bash
    git clone https://github.com/maxchain89/Supplychain.git
    cd Supplychain/client
+
+Install Dependencies
+
+bash
+Copy code
+npm install
+Set Up Environment Variables
+
+Create a .env file in the client directory with the necessary variables:
+
+plaintext
+Copy code
+REACT_APP_INFURA_KEY=<YourInfuraKey>
+REACT_APP_CONTRACT_ADDRESS=<DeployedContractAddress>
+Note: Replace <YourInfuraKey> with your Infura project key and <DeployedContractAddress> with the address of the deployed smart contract.
+
+Run the Application Locally
+
+bash
+Copy code
+npm start
+The app will be available at http://localhost:3000.
+
+Connect MetaMask
+Before interacting with the app, make sure to connect your MetaMask wallet using an account with Sepolia test ETH. All changes are reflected on the blockchain and can be verified through Sepolia Etherscan.
+
+Feedback
+Please let me know what you think of the app or if you have any suggestions:
+
+Email: maxevans156@gmail.com
+LinkedIn: Max Evans
+GitHub: maxchain89
